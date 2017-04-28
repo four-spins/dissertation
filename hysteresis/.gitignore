@@ -1,0 +1,7 @@
+docs/
+include/
+*swp
+*~
+bin/
+scripts/*.pyc
+src/version.hpp
