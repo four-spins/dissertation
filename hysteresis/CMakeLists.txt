@@ -8,7 +8,7 @@ set(CMAKE_CXX_FLAGS_DEBUG "-Wall -Wextra -DVERBOSE_WEIGHTS")
 set(CMAKE_CXX_FLAGS_RELEASE "-DNDEBUG -O2 -march=native")
 
 set (DSFMTLIB_ROOT "${PROJECT_SOURCE_DIR}/../external_libraries/dSFMT-src-2.2.3")
-set (DLIB_ROOT "${PROJECT_SOURCE_DIR}/../external_libraries/dlib-19.2")
+set (DLIB_ROOT "${PROJECT_SOURCE_DIR}/../external_libraries/dlib")
 
 include_directories (
   "${PROJECT_SOURCE_DIR}/include"
