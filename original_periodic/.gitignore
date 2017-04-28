@@ -1,0 +1,13 @@
+*.swp
+*.x
+*.aux
+*.toc
+*.log
+*.nav
+*.out
+*.snm
+*.bbl
+*.blg
+*.lot
+*.lof
+*.pyc
