@@ -22,7 +22,7 @@ add_definitions(-std=c++11 -DDLIB_ISO_CPP_ONLY )
 set(CMAKE_CXX_FLAGS_DEBUG "-Wall -Wextra -DVERBOSE_WEIGHTS")
 set(CMAKE_CXX_FLAGS_RELEASE "-DNDEBUG -O2 -march=native")
 
-set (DLIB_ROOT "${PROJECT_SOURCE_DIR}/../../external_libraries/dlib-19.2")
+set (DLIB_ROOT "${PROJECT_SOURCE_DIR}/../../external_libraries/dlib")
 
 include_directories ( 
   include,
